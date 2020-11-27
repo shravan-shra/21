@@ -1,0 +1,25 @@
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.container{
+    width:100%;
+    height: auto;
+    font-family: 'cookie', cursive;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #ff99b6;
+    overflow: hidden;
+}
+.banner{
+    width:100%;
+    height: 650px;
+    background-image: url(https://i.ibb.co/kHmMsgR/wed-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
